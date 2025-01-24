@@ -15,16 +15,16 @@ body:
         - label: "Offline storage archives"
         - label: "Wasm modules"
         - label: "Other"
-      validations:
-        required: true
+    validations:
+      required: true
   - type: "dropdown"
     attributes:
       label: "Would you use this API in production as a progressive enhancement?"
       options:
-        - Yes
-        - No
-      validations:
-        required: true
+        - "Yes"
+        - "No"
+    validations:
+      required: true
   - type: "textarea"
     attributes:
       label: "Why is cross-origin storage important for your use case?"
