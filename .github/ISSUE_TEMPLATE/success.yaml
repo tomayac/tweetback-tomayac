@@ -3,13 +3,10 @@ description: "Express your support for the Cross-Origin Storage API Proposal"
 body:
   - type: "markdown"
     attributes:
-      value: |
-        "# Expression of Support
-        Fill out this form if you support the **Cross-Origin Storage (COS) API**
-        proposal and would possibly make use of it in your apps."
+      value: "# Expression of Support\nFill out this form if you support the **Cross-Origin Storage (COS) API** proposal and would possibly make use of it in your apps."
   - type: "checkboxes"
     attributes:
-      label: "What is the primary use case for this API in your apps?"
+      label: "What are the primary cross-origin storage use cases in your apps?"
       options:
         - label: "AI models"
         - label: "SQLite databases"
@@ -24,15 +21,22 @@ body:
       options:
         - "Yes"
         - "No"
+        - "Maybe"
     validations:
       required: true
   - type: "textarea"
     attributes:
       label: "Why is cross-origin storage important for your use case?"
-      description: "Describe the challenges you face with current solutions and how this API would address them."
-      placeholder: "For example, 'AI models are large and shared across multiple origins, and downloading them repeatedly causes storage inefficiencies.'"
+      description: "Describe the challenges you face with current solutions and how this API would address them."      
     validations:
       required: true
+  - type: "input"
+    attributes:
+      label: "What company do you work for?"
+      description: "If you can share what company you work for, this would help us prioritize the API."
+      placeholder: "Example Company, Inc."
+    validations:
+      required: false
   - type: "textarea"
     attributes:
       label: "Concerns or reservations"
@@ -43,13 +47,6 @@ body:
     attributes:
       label: "Additional features or improvements"
       description: "Are there any additional features you'd like to see in the API or any enhancements to its current design?"
-    validations:
-      required: false
-  - type: "input"
-    attributes:
-      label: "What company do you work for?"
-      description: "If you can share what company you work for, this would help us prioritize the API."
-      placeholder: "Example Company, Inc."
     validations:
       required: false
   - type: "textarea"
