@@ -1,9 +1,7 @@
----
 name: Expression of support
 title: "[Expression of support]: "
 labels: bug
 
----
 body:
   - type: "markdown"
     attributes:
