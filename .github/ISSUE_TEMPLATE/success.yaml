@@ -1,4 +1,5 @@
 name: "Expression of support"
+description: "Express your support for the Cross-Origin Storage API Proposal"
 body:
   - type: "markdown"
     attributes:
