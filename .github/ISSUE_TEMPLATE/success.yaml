@@ -1,6 +1,7 @@
 name: "Expression of support"
+description: "Express your support for the Cross-Origin Storage API Proposal."
 title: "[Expression of support]: "
-description: "Express your support for the Cross-Origin Storage API Proposal"
+labels: ["expression-of-support"]
 body:
   - type: "markdown"
     attributes:
