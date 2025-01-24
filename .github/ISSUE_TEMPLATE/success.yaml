@@ -2,19 +2,22 @@ name: "Expression of support"
 body:
   - type: "markdown"
     attributes:
-      value: "# Expression of Support\nFill out this form if you support the **Cross-Origin Storage (COS) API** proposal and would possibly make use of it in your apps."
+      value: |
+        "# Expression of Support"
+        Fill out this form if you support the **Cross-Origin Storage (COS) API**
+        proposal and would possibly make use of it in your apps.
   - type: "checkboxes"
     attributes:
       label: "What is the primary use case for this API in your apps?"
       options:
-        - "AI models"
-        - "SQLite databases"
-        - "Offline storage archives"
-        - "Wasm modules"
-        - "Other"
+        - label: "AI models"
+        - label: "SQLite databases"
+        - label: "Offline storage archives"
+        - label: "Wasm modules"
+        - label: "Other"
       validations:
         required: true
-  - type: "select"
+  - type: "dropdown"
     attributes:
       label: "Would you use this API in production as a progressive enhancement?"
       options:
